@@ -16,11 +16,12 @@ let websocket
 const user = { id: '', name: '', color: '' }
 
 const colors = [
-    '#184e4f',
-    '#1e184f',
-    '#4f1d18',
-    '#690101',
-    '#003302'
+    '#f3f315',
+    '#3219ed',
+    '#19ed4a',
+    '#ef212f',
+    '#21efde',
+    '#d021ef'
 ]
 const randowColor = () => {
     const getRandowColor = Math.floor(Math.random() * colors.length)
